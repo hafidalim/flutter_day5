@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: PageHome(),debugShowCheckedModeBanner: false,
+      home: MyHomePage(),debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -47,7 +47,7 @@ class PageHome extends StatelessWidget {
 
           MaterialButton(
             onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context) => PageNumberPicker()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => PageNumberPiker()));
             },
             color: Colors.brown,
             textColor: Colors.white,
